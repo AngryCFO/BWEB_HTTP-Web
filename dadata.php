@@ -13,8 +13,8 @@ if (!isset($requestData['surname']) || !isset($requestData['name'])) {
 }
 
 // Получаем API-ключи из скрытых полей формы или используем заданные в коде
-$apiKey = isset($requestData['api_key']) ? $requestData['api_key'] : '3283c6c1e8a1525d49af2871bfe55b9d59f60a37';
-$secretKey = isset($requestData['secret_key']) ? $requestData['secret_key'] : 'f93d8189f8fa28e152d96d45cf3ba1967b20a6cd';
+$apiKey = isset($requestData['api_key']) ? $requestData['api_key'] : '1437ebd34d55ec8ebf3e2274121e4cf060ea80ed';
+$secretKey = isset($requestData['secret_key']) ? $requestData['secret_key'] : '879ad673171fbd0ab49fb996cb823dfdc01299b6';
 
 // Получаем данные из формы
 $surname = $requestData['surname'];
